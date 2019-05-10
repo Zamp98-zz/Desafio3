@@ -3,7 +3,7 @@
 1 - Como o programa funciona? Ele lê um arquivo .CSV (comma-separated values), que é um arquivo sequencial cujas informações estão separadas por vírgulas seguindo um parâmetro. A partir desta leitura, ele trata os dados de forma adequada, "jogando-os" em um ArrayList para facilitar o processamento das informações e a legibilidade do algoritmo(com vetores ficaria muito pior para implementar e entender o seu funcionamento).
 
 2 - Como utilizar?
-	Basta ter a IDE do Netbeans 8.1 ou superior com Java: 1.8.0_191; OpenJDK 64-Bit Server VM 25.191-b12 e Runtime: OpenJDK Runtime Environment 1.8.0_191-8u191-b12-2ubuntu0.16.04.1-b12. Todos são instalados por padrão pela IDE e foram testados na versão do Ubuntu 16.04.6.
+	Basta ter a IDE do Netbeans 8.1 ou superior com Java: 1.8.0_191; OpenJDK 64-Bit Server VM 25.191-b12 e Runtime: OpenJDK Runtime Environment 1.8.0_191-8u191-b12-2ubuntu0.16.04.1-b12. Todos são instalados por padrão pela IDE e foram testados na versão do Ubuntu 16.04.6. Para rodar e editar o programa, basta abrir a pasta como um projeto.
 
 3 - Como poderia melhorar? O volume do arquivo de entrada pode afetar muito à rapidez do algoritmo, pois ele não está otimizado. Ele utiliza somente listas lineares que sempre são acessadas a partir do início, o que aumenta muito a complexidade do algoritmo. O ideal seria implementá-lo utilizando estruturas mais rápidas como arvores binárias. O programa funciona com todos os dados em memória principal, o que pode causar um estouro. O ideal nesse caso seria à implementação de um banco de dados no mySQL, por exemplo.
  
