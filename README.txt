@@ -7,4 +7,5 @@
 
 3 - Como poderia melhorar? O volume do arquivo de entrada pode afetar muito à rapidez do algoritmo, pois ele não está otimizado. Ele utiliza somente listas lineares que sempre são acessadas a partir do início, o que aumenta muito a complexidade do algoritmo. O ideal seria implementá-lo utilizando estruturas mais rápidas como arvores binárias. O programa funciona com todos os dados em memória principal, o que pode causar um estouro. O ideal nesse caso seria à implementação de um banco de dados no mySQL, por exemplo.
  
-
+4 - Solução de erros:
+	Caso ocorra erro na execução, o principal fator é o diretório do arquivo de entrada, que varia de máquina pra máquina e pode ser encontrado na classe LeiaCSV. O segundo fator é linha vazia existente no arquivo, nesse caso, apague à linha utilizando um editor de texto de preferência.
